@@ -23,8 +23,4 @@ cache.get('test'); // 'hello'
 
 // after 7000ms
 cache.get('test'); // undefined
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 295ce92e470d3a26f3b93feb2f32e7f08a71aaa0
