@@ -1,0 +1,1 @@
+export { globalCache, Cache } from './cache';
