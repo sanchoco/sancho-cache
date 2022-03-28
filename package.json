@@ -1,11 +1,15 @@
 {
   "name": "sancho-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "node js cache",
   "main": "lib/index.js",
   "types": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanchoco/sancho-cache"
+  },
   "scripts": {},
-  "author": "",
+  "author": "sancho",
   "license": "ISC",
   "keywords": [
     "cache",
