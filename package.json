@@ -1,17 +1,17 @@
 {
   "name": "sancho-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node js cache",
   "main": "lib/index.js",
   "types": "src/index.ts",
   "scripts": {},
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^4.6.3"
-  },
   "keywords": [
     "cache",
     "sancho"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }
