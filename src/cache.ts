@@ -5,6 +5,13 @@ export class Cache {
   private cache: {[k: string]: cacheData};
   private defaultExp: number;
   private defaultInterval: number;
+
+  /**
+     * option: {
+     *  exp: cache default expire time(ms),
+     *  interval: expired cache check cycle(ms)
+     * }
+   */
   constructor(option?: cacheOption) {
     this.cache = {};
     this.defaultExp = option?.exp || 10**13;
@@ -23,7 +30,7 @@ export class Cache {
   set(key: string, value: any, exp?: number) {
     this.cache[key] = {
       value,
-      expire: exp ? new Date(Date.now() + exp) : new Date(this.defaultExp)
+      expire: exp ? new Date(Date.now() + exp) : new Date(Date.now() + this.defaultExp)
     };
   }
 

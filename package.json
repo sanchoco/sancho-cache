@@ -8,7 +8,9 @@
     "type": "git",
     "url": "https://github.com/sanchoco/sancho-cache"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "tsc --build"
+  },
   "author": "sancho",
   "license": "ISC",
   "keywords": [
