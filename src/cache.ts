@@ -14,7 +14,7 @@ export class Cache {
    */
   constructor(option?: cacheOption) {
     this.cache = {};
-    this.defaultExp = option?.exp || 10**13;
+    this.defaultExp = option?.exp || 10**11;
     this.defaultInterval = option?.interval || 0;
 
     // interval exp check
